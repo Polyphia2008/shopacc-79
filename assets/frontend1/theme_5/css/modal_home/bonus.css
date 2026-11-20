@@ -1,0 +1,56 @@
+#bonus {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 10%;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#bonus img {
+    width: 100%;
+}
+
+#bonus_login {
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    width: 10%;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#bonus_login img {
+    width: 100%;
+}
+
+.mobile {
+    width: 10% !important;
+}
+
+@media only screen and (max-width: 640px) {
+    #bonus_login {
+        width: 25% !important;
+    }
+
+    #bonus {
+        width: 25% !important;
+    }
+}
+
+#bonusModal .modal-body p,
+#bonusModal .modal-body b {
+    display: inline;
+    color: #000
+}
+
+@media only screen and (max-width: 992px) {
+    #bonus_login {
+        bottom: 90px !important;
+    }
+
+    #bonus {
+        bottom: 90px !important;
+    }
+}

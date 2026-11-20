@@ -1,0 +1,17 @@
+# Log & file rac
+error_log
+*.log
+.DS_Store
+__MACOSX/
+
+# Cai dat local
+.dev.vars
+.env
+.wrangler/
+
+# Backup
+*.bak
+*.orig.bak
+
+# Composer (cai lai bang: composer install)
+vendor/
